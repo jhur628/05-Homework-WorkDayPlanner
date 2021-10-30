@@ -43,17 +43,17 @@ textarea {
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: gray;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: green;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: yellow;
   color: white;
 }
 
@@ -68,4 +68,22 @@ textarea {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+.timeSlot {
+  display: flex;
+  justify-content: center;
+}
+
+.HourA {
+  border: solid pink 2px;
+  background-color: #77dd77;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.todoArea {
+  border: solid pink 2px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
 }

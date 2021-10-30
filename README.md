@@ -2,7 +2,7 @@
 
 ## Description
 
-I made a Work Day Planner.
+I made a Work Day Planner to help organize the work day.
 
 When the page is loaded, the current day is displayed.
 
@@ -30,7 +30,7 @@ Deployed Application: [https://jhur628.github.io/05-Homework-WorkDayPlanner/](ht
 
 ## Other Comments
 
-Unfortunately, I was unable to participate in study groups for this assignment. It was a challenging assignment, but I was able to complete it. There were many things that were not covered in our classes; however, I was able to figure out the assignment with the resources given by our instructor and TAs.
+Unfortunately, I was unable to participate in study groups for this assignment. It was a challenging assignment, but I was able to complete it. There were many things that were not covered in our classes; however, I was able to figure out the assignment with the resources given by our instructor and TAs. I also had to Google a lot of solutions to make my code work. Thank you Google/internet!
 
 Moving forward, I would like to participate in as many study groups as possible. It was a personally busy week for me. I'm sure things would have been slightly less challenging with the help of my peers.
 

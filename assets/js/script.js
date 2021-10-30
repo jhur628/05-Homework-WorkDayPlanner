@@ -1,5 +1,5 @@
 // set variable for current day
-var day = moment().format("dddd, MMMM Do, YYYY");
+var day = moment().format("dddd MMMM Do, YYYY");
 
 // display the current day on "currentDay"
 $("#currentDay").text(day);

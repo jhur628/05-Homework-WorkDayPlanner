@@ -6,11 +6,13 @@ body {
 
 textarea {
   background: transparent;
-  border: none;
+  border: solid pink 2px;
   resize: none;
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
 }
 
 .jumbotron {
@@ -44,17 +46,17 @@ textarea {
 
 .past {
   background-color: gray;
-  color: white;
+  color: black;
 }
 
 .present {
   background-color: green;
-  color: white;
+  color: black;
 }
 
 .future {
   background-color: yellow;
-  color: white;
+  color: black;
 }
 
 .saveBtn {
@@ -80,10 +82,4 @@ textarea {
   background-color: #77dd77;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
-}
-
-.todoArea {
-  border: solid pink 2px;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 18px;
 }

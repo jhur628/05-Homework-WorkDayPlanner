@@ -1,11 +1,8 @@
 // set variable for current day
 var day = moment().format("dddd, MMMM Do, YYYY");
-console.log(day);
 
 // display the current day on "currentDay"
 $("#currentDay").text(day);
-
-
 
 // set variable for current time/hour
 var currentHour = moment().format("H A");
@@ -22,8 +19,13 @@ var workHours = [
     {time: "3 PM", todo: ""},
     {time: "4 PM", todo: ""},
     {time: "5 PM", todo: ""}
-]
+];
 
+// load stored todos
+var storedTodos = JSON.parse(localStorage.getItem("plannedTodos"));
+if (storedTodos !== null) {
+    workHours = storedTodos
+};
 // function to build rows for each time block
 workHours.forEach(function(hourBlock, index) {
     var hourLabel = hourBlock.time;
@@ -66,5 +68,6 @@ $(".saveBtn").on("click", function(todo) {
     // Plug the user todo into the workHours array
     workHours[todoIndex].todo = userText;
     // Store todos into local storage
-    localStorage.setItem("plannedTodo", JSON.stringify(workHours));
+    localStorage.setItem("plannedTodos", JSON.stringify(workHours));
 })
+
